@@ -1,0 +1,13 @@
+#RB
+# This first command will output all pf netstat into a single txt file(networkdumpONE-_-3-3-22.txt)
+echo `netstat -a;`>networkdumpONE-_-3-3-22.txt  
+#This second command will output all of rout into the second txt file (networkdumpTWO-_-3-3-22.txt)
+ 
+echo `route -e;`>networkdumpTWO-_-3-3-22.txt  
+#This command will dump all of ip config into the third txt file called (networkdumpTHREE-_-3-3-22.txt)
+echo `ifconfig;`>networkdumpTHREE-_-3-3-22.txt
+
+#at the end this command will print complete meaning that it has created all three file
+echo "Your Network has Been dUMP into three different txt files"
+
+# i decided to make three txt file to ease reading
