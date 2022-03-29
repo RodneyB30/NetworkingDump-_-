@@ -1,4 +1,5 @@
 #RB
+#!/bin/bash
 # This first command will output all pf netstat into a single txt file(networkdumpONE-_-3-3-22.txt)
 echo `netstat -a;`>networkdumpONE-_-3-3-22.txt  
 #This second command will output all of rout into the second txt file (networkdumpTWO-_-3-3-22.txt)
